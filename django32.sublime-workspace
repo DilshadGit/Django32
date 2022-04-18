@@ -1,0 +1,467 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"j",
+				"justify-content-center"
+			],
+			[
+				"Ab",
+				"AboutMe"
+			],
+			[
+				"si",
+				"signals"
+			],
+			[
+				"P",
+				"PostImage"
+			],
+			[
+				"pa",
+				"pathlib"
+			],
+			[
+				"q",
+				"queryset"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"Pos",
+				"PostImage"
+			],
+			[
+				"form",
+				"formset"
+			],
+			[
+				"Po",
+				"PostImage"
+			],
+			[
+				"Im",
+				"ImageFormSet"
+			],
+			[
+				"ra",
+				"random_string_generator"
+			],
+			[
+				"po",
+				"post_pre_save_receiver"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"str",
+				"string"
+			],
+			[
+				"up",
+				"upload_image_to"
+			],
+			[
+				"con",
+				"conf"
+			],
+			[
+				"tit",
+				"title"
+			],
+			[
+				"suc",
+				"success_msg"
+			],
+			[
+				"lin",
+				"nav-link"
+			],
+			[
+				"H",
+				"HttpResponseRedirect"
+			],
+			[
+				"ac",
+				"action"
+			],
+			[
+				"btn",
+				"btn-sm"
+			],
+			[
+				"obj",
+				"object_dtl"
+			],
+			[
+				"ob",
+				"object_dtl"
+			],
+			[
+				"log",
+				"login_required"
+			],
+			[
+				"te",
+				"text-center"
+			],
+			[
+				"le",
+				"margin-left"
+			],
+			[
+				"ml",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"p",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"a",
+				"accounts"
+			],
+			[
+				"is",
+				"is_staff"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"un",
+				"Colorsublime: Uninstall Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/dilmac/Develop/Django32/django_32"
+	],
+	"file_history":
+	[
+		"/home/dilmac/Develop/Django32/django_32/requirements.txt",
+		"/home/dilmac/Develop/Django32/django_32/templates/footer.html",
+		"/home/dilmac/Develop/Django32/django_32/requirements/django32.txt",
+		"/home/dilmac/Develop/Django32/django_32/templates/base.html",
+		"/home/dilmac/Develop/Django32/django_32/templates/index.html",
+		"/home/dilmac/Develop/Django32/django_32/configs/settings.py",
+		"/home/dilmac/Develop/Django32/django_32/configs/urls.py",
+		"/home/dilmac/Develop/Django32/django_32/configs/views.py",
+		"/home/dilmac/Develop/Django32/django_32/templates/header.html",
+		"/home/dilmac/Develop/Django32/django_32/templates/navbar.html",
+		"/home/dilmac/Develop/Django32/django_32/templates/bootstrap.html",
+		"/home/dilmac/Develop/Django32/django_32/configs/wsgi.py",
+		"/home/dilmac/Develop/Django32/django_32/manage.py",
+		"/home/dilmac/Develop/Django32/django_32/configs/asgi.py",
+		"/home/dilmac/Develop/wedding/trydresse/config/settings.py",
+		"/home/dilmac/Develop/wedding/trydresse/pages/migrations/0001_initial.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/posts.html",
+		"/home/dilmac/Develop/wedding/trydresse/pages/templates/contact_me.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/admin.py",
+		"/home/dilmac/Develop/wedding/trydresse/pages/admin.py",
+		"/home/dilmac/Develop/wedding/trydresse/templates/main.html",
+		"/home/dilmac/Develop/wedding/.gitignore",
+		"/home/dilmac/Develop/wedding/trydresse/config/systems/locals.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/urls.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/views.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/models.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/signals.py",
+		"/home/dilmac/Develop/wedding/trydresse/pages/models.py",
+		"/home/dilmac/Develop/wedding/trydresse/config/urls.py",
+		"/home/dilmac/Develop/wedding/trydresse/config/__init__.py",
+		"/home/dilmac/Develop/wedding/trydresse/config/systems/settings.py",
+		"/home/dilmac/Develop/wedding/trydresse/media/image/8c5f3e56-aedd-11ec-9c61-e5b51e696f65.jpg",
+		"/home/dilmac/Develop/wedding/trydresse/pages/templates/index.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0005_auto_20220328_2117.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/create_post.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/post_detail.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/delete_post.html",
+		"/home/dilmac/Develop/wedding/trydresse/config/utils.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/forms.py",
+		"/home/dilmac/Develop/wedding/trydresse/config/systems/productions.py",
+		"/home/dilmac/Develop/wedding/media_root/upload_image_to/2022-03-25_17.jpg",
+		"/home/dilmac/Develop/wedding/media_root/image/036dc70c-aebf-11ec-9c61-e5b51e696f65.jpg",
+		"/home/dilmac/.config/sublime-text/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0003_auto_20220308_1158.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0002_auto_20220308_0139.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0001_initial.py",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0004_alter_post_image.py",
+		"/home/dilmac/Develop/wedding/trydresse/templates/base.html",
+		"/home/dilmac/Develop/wedding/trydresse/templates/footer.html",
+		"/home/dilmac/Develop/wedding/trydresse/templates/header.html",
+		"/home/dilmac/Develop/wedding/trydresse/templates/navbar.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/update_post.html",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/templates/search_post.html",
+		"/home/dilmac/Develop/wedding/trydresse/media/pics/basia.jpg",
+		"/home/dilmac/Develop/wedding/media_root/5/2022-02-27_8.jpg",
+		"/home/dilmac/Develop/wedding/media_root/images/2022-02-26_2.jpg",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/utils.py",
+		"/home/dilmac/Develop/wedding/media_root/images/2022-02-27_2.jpg",
+		"/home/dilmac/Develop/wedding/media_root/2022-03-02_2.jpg",
+		"/home/dilmac/Develop/wedding/trydresse/requirements.txt",
+		"/home/dilmac/Develop/wedding/README.md",
+		"/home/dilmac/Develop/wedding/trydresse/blogs/migrations/0002_post_author.py",
+		"/home/dilmac/Develop/wedding/trydresse/templates/index.html",
+		"/home/dilmac/Develop/wedding/trydresse/templates/slick.css",
+		"/home/dilmac/Develop/buymepro/buyme/templates/header/css_links.html",
+		"/home/dilmac/Develop/buymepro/buyme/search/admin.py",
+		"/home/dilmac/Develop/wedcrs/templates/header.html",
+		"/home/dilmac/Develop/wedcrs/requirements.txt",
+		"/home/dilmac/Develop/wedcrs/templates/base.html",
+		"/home/dilmac/Develop/wedcrs/templates/carousel.html",
+		"/home/dilmac/Develop/wedcrs/templates/footer.html",
+		"/home/dilmac/Develop/wedcrs/blogs/templates/posts.html",
+		"/home/dilmac/Develop/wedcrs/blogs/templates/post_update.html",
+		"/home/dilmac/Develop/wedcrs/blogs/templates/post_form.html",
+		"/home/dilmac/Develop/wedcrs/blogs/forms.py",
+		"/home/dilmac/Develop/wedcrs/configs/urls.py",
+		"/home/dilmac/Develop/wedcrs/blogs/views.py",
+		"/home/dilmac/Develop/wedcrs/blogs/templates/post_dtaile.html",
+		"/home/dilmac/Develop/wedcrs/templates/index.html",
+		"/home/dilmac/Develop/wedcrs/configs/settings.py",
+		"/home/dilmac/Develop/wedcrs/accounts/models.py",
+		"/home/dilmac/Develop/wedcrs/accounts/views.py",
+		"/home/dilmac/Develop/wedcrs/blogs/admin.py",
+		"/home/dilmac/Develop/wedcrs/blogs/apps.py",
+		"/home/dilmac/Develop/wedcrs/configs/asgi.py",
+		"/home/dilmac/Develop/wedcrs/manage.py",
+		"/home/dilmac/Develop/wedcrs/configs/wsgi.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/blogs/migrations/0006_auto_20171122_1818.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/blogs/migrations/0001_initial.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/catalog/migrations/0001_initial.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/blogs/models.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/cms/models.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/ee_test/urls.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/blogs/urls.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/cms/urls.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/config/urls.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/catalog/models.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/qrcode/models.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/config/wsgi.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/catalog/migrations/0003_auto_20171029_1757.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/catalog/migrations/0002_auto_20170406_2043.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/qrcode/apps.py",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/requirements.txt",
+		"/home/dilmac/Develop/noisy-atom-portal/noisyatom/new-requirements.txt",
+		"/home/dilmac/.virtualenvs/noisyenv/lib/python3.8/site-packages/django/contrib/auth/base_user.py",
+		"/home/dilmac/.virtualenvs/noisyenv/lib/python3.8/site-packages/django/contrib/auth/models.py",
+		"/home/dilmac/Develop/e-buyme/graph.md",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/views.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/urls.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/templates/accounts/snippets/form.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/footer/js_links.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/utils.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/footer/top_footer.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/e_buyme/settings.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/navbar/main_navbar.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/utils/countries.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/navbar/url_list.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/e_buyme/wsgi.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/navbar/navbar.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/pages/views.py",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/templates/login.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/pages/templates/contact.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/templates/registration_form.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/pages/templates/blog_details.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/accounts/templates/account_reset_password.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/pages/templates/faq.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/templates/registration/password_reset_form.html",
+		"/home/dilmac/Develop/e-buyme/e_buyme/pages/templates/shop_categories.html"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 170.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 74.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "django32.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 217.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}
