@@ -13,6 +13,8 @@ __pycache__
 *.pytest_cache
 *.cache
 
+static_root
+
 # Backup files #
 *.bak
 
