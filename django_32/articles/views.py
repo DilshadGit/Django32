@@ -19,7 +19,7 @@ def article_detail_view(request):
     return render(request, context, template_name)
 
 
-def articles_update_view(request):
+def article_update_view(request):
     template_name = 'edit_article.html'
     context = {
         '': ,
@@ -27,7 +27,7 @@ def articles_update_view(request):
     return render(request, context, template_name)
 
 
-def articles_create_view(request):
+def article_create_view(request):
     template_name = 'create_article.html'
     context = {
         '': ,
@@ -35,7 +35,7 @@ def articles_create_view(request):
     return render(request, context, template_name)
 
 
-def articles_delete_view(request):
+def article_delete_view(request):
     template_name = 'delete_article.html'
     context = {
         '': ,

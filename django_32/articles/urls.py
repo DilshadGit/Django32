@@ -7,9 +7,9 @@ from django.urls import include, re_path, path
 from .views import (
     articles_view,
     article_detail_view,
-    articles_create_view,
-    articles_update_view,
-    articles_delete_view
+    article_create_view,
+    article_update_view,
+    article_delete_view
 )
 
 urlpatterns = [
