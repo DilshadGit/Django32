@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load django_bootstrap5 %}
+
+{% block content %}
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-8 mt-3">
+            <br>
+            <h3>Create account | Register</h3>
+            <form method="POST" action="." class="form-control" >
+                {% csrf_token %}
+                <input type="text" name="title" class="mt-3" placeholder="Title">
+                <br>
+                <input name="password" placeholder="Password" class="mt-3"/>
+                <br>
+                <button type="submit" class="button btn-primary mt-3">Creater account</button>
+            </form>
+        </div>
+        <div class="col-4">Picture</div>
+
+    </div>
+
+</div>
+{% endblock content %}
