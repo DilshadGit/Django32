@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if object %}
+    <h3>{{object.title}}</h3>
+    <p>{{object.content}}</p>
+{% endif %}
+
+{% block content %}
