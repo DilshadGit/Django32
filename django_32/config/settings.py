@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_bootstrap5',
-    'articles',
+    'article',
 ]
 
 MIDDLEWARE = [
@@ -52,12 +52,12 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'configs.urls'
+ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates'],
+        'DIRS': [BASE_DIR, 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -70,7 +70,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'configs.wsgi.application'
+
+WSGI_APPLICATION = 'config.wsgi.application'
 
 
 # Database
@@ -135,13 +136,13 @@ MEDIA_URL = '/media/'  # public media
 
 
 # static_cdn stand for static content delivery network
-STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static_root')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static_root')
 
 '''
 Media root is the full path where django uploaded the file
 system. Not in Database
 '''
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'media_root')
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media_root')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
