@@ -5,7 +5,9 @@ from django.urls import include, re_path, path
 
 
 from .views import (
-
+    user_login_view,
+    user_logout_view,
+    user_register_view,
 )
 
 app_name = "accounts"
