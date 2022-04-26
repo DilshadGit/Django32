@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, get_object_or_404
 
 
@@ -47,8 +48,9 @@ def article_detail_view(request, article_id):
     return render(request, template_name, context)
 
 
+@login_required
 def article_create_view(request):
-    print(request.POST, ' <<< post')
+    print(request.POST)
 
     template_name = 'create_article.html'
     context = {}
@@ -58,6 +60,7 @@ def article_create_view(request):
         print(title, content)
         object_art = Article.objects.create(title=title, content=content)
         context['object'] = object_art
+        context['create_date'] = True
 
     return render(request, template_name, context)
 
