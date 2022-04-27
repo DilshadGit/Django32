@@ -4,24 +4,36 @@
 
 {% block content %}
 <div class="container">
-
     <div class="row">
-
         <div class="col-8 mt-3">
             <br>
-            <h3>User Login</h3>
-            <form method="POST" action="." class="form-control" >
-                {% csrf_token %}
-                <input type="text" name="title" class="mt-3" placeholder="Title">
+            <h3 class="text-center">Account / User Login</h3>
+            {% if not request.user.is_authenticated %}
+            <form method="POST"> {% csrf_token %}
+                {% if error %} 
+                    <p class="text-danger">{{error}}</p>
+                {% endif %}
+                <div class="form-row">
+                    <label for="Username">Username </label>
+                    <input type="text" name="username" class="col-7"  placeholder="Username">
+                    <br>
+                    
+                    <br>
+                </div>
+                <div class="form-row">
+                    <label for="Password">Password</label>
+                    <input type="password" name="password" class="col-7"  placeholder="Password">
+                </div>
                 <br>
-                <input name="password" placeholder="Password" class="mt-3"/>
+                
                 <br>
-                <button type="submit" class="button btn-primary mt-3">Login</button>
+                <button type="submit" class="btn btn-primary">Login</button>
             </form>
+            {% else %}
+                <h3>Hi {{request.user}}, you are already logged in!</h3>
+            {% endif %}
         </div>
         <div class="col-4">Picture</div>
-
     </div>
-
 </div>
 {% endblock content %}

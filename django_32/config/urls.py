@@ -23,6 +23,7 @@ from django.urls import include, re_path, path
 from .views import index_view
 
 urlpatterns = [
+    path('accounts/', include('accounts.urls', namespace='accounts')),
     path('article/', include('article.urls', namespace='article')),
     path('admin/', admin.site.urls),
     path('', index_view, name='home')
