@@ -4,6 +4,24 @@ from django import forms
 from .models import Article
 
 
+class ArticleForm(forms.ModelForm):
+    class Meta:
+        model = Article
+        fields = ['title', 'content']
+
+    def clean(self):
+        data = self.cleaned_data
+        title = data.get('title')
+        # This is mean this title is already created go throw the database to check
+        # if this title already created or No
+        qs = Article.objects.filter(title__icontains=title)
+        # to kae it more clear stopped duplicated article 
+        if qs.exists():
+            self.add_error('title', f"{title} is already created. Try another article, please!")
+
+        return data
+
+
 class ArticleFormV1(forms.Form):
     title = forms.CharField()
     content = forms.CharField()

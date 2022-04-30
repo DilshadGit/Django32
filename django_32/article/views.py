@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 
 
 from .models import Article
-from .forms import ArticleFormV1
+from .forms import ArticleFormV1, ArticleForm
 
 
 def articles_view(request, *args, **kwargs):
@@ -51,26 +51,42 @@ def article_detail_view(request, article_id):
 
 @login_required
 def article_create_view(request):
-    # print(request.POST)
-
     template_name = 'create_article.html'
-    form = ArticleFormV1(request.POST or None)
-    print(dir(form))
+    form = ArticleForm(request.POST or None)
     context = {
         'form': form
     }
-    if request.method == 'POST':
-        form = ArticleFormV1(request.POST)
-        context['form'] = form
-        if form.is_valid():
-            title = form.cleaned_data.get('title')
-            content = form.cleaned_data.get('content')
-            print(title, content)
-            object_art = Article.objects.create(title=title, content=content)
-            context['object'] = object_art
-            context['create_date'] = True
-   
+
+    if form.is_valid():
+        data_obj = form.save()
+        # This will clear the create form after new article created clear the page
+        context['form'] = ArticleForm()
+
     return render(request, template_name, context)
+
+
+# @login_required
+# def article_create_view(request):
+#     # print(request.POST)
+
+#     template_name = 'create_article.html'
+#     form = ArticleFormV1(request.POST or None)
+#     print(dir(form))
+#     context = {
+#         'form': form
+#     }
+#     if request.method == 'POST':
+#         form = ArticleFormV1(request.POST)
+#         context['form'] = form
+#         if form.is_valid():
+#             title = form.cleaned_data.get('title')
+#             content = form.cleaned_data.get('content')
+#             print(title, content)
+#             object_art = Article.objects.create(title=title, content=content)
+#             context['object'] = object_art
+#             context['create_date'] = True
+   
+#     return render(request, template_name, context)
 
 # @login_required
 # def article_create_view(request):
