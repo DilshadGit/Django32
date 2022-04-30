@@ -11,13 +11,13 @@
             <br>
             <h3>User Logout</h3>
             {% if request.user.is_authenticated %}
-            <form method="POST" action="/accounts/login" class="form-control" >
+            <form method="POST" action="{% url 'accounts:logout' %}" class="form-control" >
                 {% csrf_token %}
                 <p>Are you sure you want to logout?</p>
                 <button type="submit" class="button btn-primary mt-3">Yes, Logout</button>
             </form>
             {% else %}
-                <h3>You're not logged in. Would you like to <a href="/accounts/login/">Login</a> ?</h3>
+                <h3>You're not logged in. Would you like to <a href="{% url 'accounts:logout' %}">Logout.</a> ?</h3>
             {% endif %}
         </div>
 

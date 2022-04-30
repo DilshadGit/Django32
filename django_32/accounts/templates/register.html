@@ -8,20 +8,18 @@
     <div class="row">
 
         <div class="col-8 mt-3">
+
             <br>
+            {% if not request.user.is_authenticated %}
             <h3>Create account | Register</h3>
             <form method="POST" action="." class="form-control" >
                 {% csrf_token %}
-                <input type="text" name="username" class="mt-3" placeholder="Username">
-                <br>
-                <input type="text" name="email" class="mt-3" placeholder="Email">
-                <br>
-                <input name="password" placeholder="Password" class="mt-3"/>
-                <br>
-                <input name="password" placeholder="Confirm Password" class="mt-3"/>
-                <br>
-                <button type="submit" class="button btn-primary mt-3">Creater account</button>
+                {{form.as_p}}
+                <button type="submit" class="btn btn-primary">Register</button>
             </form>
+            {% else %}
+                <p class="text-center">You'r already looged in and can't register, please logout to access registeration form.</p>
+            {% endif %}
         </div>
         <div class="col-4">Picture</div>
 
