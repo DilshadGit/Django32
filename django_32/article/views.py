@@ -3,7 +3,7 @@ from django.shortcuts import render, get_object_or_404
 
 
 from .models import Article
-from .forms import ArticleForm
+from .forms import ArticleFormV1
 
 
 def articles_view(request, *args, **kwargs):
@@ -54,13 +54,13 @@ def article_create_view(request):
     # print(request.POST)
 
     template_name = 'create_article.html'
-    form = ArticleForm(request.POST or None)
+    form = ArticleFormV1(request.POST or None)
     print(dir(form))
     context = {
         'form': form
     }
     if request.method == 'POST':
-        form = ArticleForm(request.POST)
+        form = ArticleFormV1(request.POST)
         context['form'] = form
         if form.is_valid():
             title = form.cleaned_data.get('title')

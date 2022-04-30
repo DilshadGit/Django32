@@ -4,7 +4,7 @@ from django import forms
 from .models import Article
 
 
-class ArticleForm(forms.Form):
+class ArticleFormV1(forms.Form):
     title = forms.CharField()
     content = forms.CharField()
     # create_date = forms.DateTimeField()
