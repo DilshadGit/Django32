@@ -28,7 +28,7 @@ class ArticleForm(forms.Form):
         if title.lower().strip() == 'python':
             self.add_error('title', 'This title is taken.')
             # raise form.ValidationError('This title is taken')
-        if 'python' in content or in title:
+        if 'python' in content or 'python' in title:
             self.add_error('content', 'Python can not be in the content')
             raise form.ValidationError('The article is already taken')
         return cleaned_data
