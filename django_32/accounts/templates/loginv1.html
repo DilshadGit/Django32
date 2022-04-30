@@ -10,8 +10,22 @@
             <h3 class="text-center">Account / User Login</h3>
             {% if not request.user.is_authenticated %}
             <form method="POST"> {% csrf_token %}
+                {% if error %} 
+                    <p class="text-danger">{{error}}</p>
+                {% endif %}
+                <div class="form-row">
+                    <label for="Username">Username </label>
+                    <input type="text" name="username" class="col-7"  placeholder="Username">
+                    <br>
+                    
+                    <br>
+                </div>
+                <div class="form-row">
+                    <label for="Password">Password</label>
+                    <input type="password" name="password" class="col-7"  placeholder="Password">
+                </div>
+                <br>
                 
-                {{form.as_p}}
                 <br>
                 <button type="submit" class="btn btn-primary">Login</button>
             </form>
