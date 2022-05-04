@@ -22,11 +22,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-p(#hd^s%rvvutge_7t=&ck2369_de2jsw%02t@sfu-#9d(884#'
-SECRET_KEY = os.environ.get('ENV_SECRET_KEY', 'django-insecure-p(#hd^s%rvvutge_7t=&ck2369_de2jsw%02t@sfu-#9d(884#')
+SECRET_KEY = os.environ.get(
+    'ENV_SECRET_KEY', 'django-insecure-p(#hd^s%rvvutge_7t=&ck2369_de2jsw%02t@sfu-#9d(884#')
 print(SECRET_KEY, ' << the key')
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = str(os.environ.get('ENV_DEBUG')) == '1' # 1==True
+DEBUG = str(os.environ.get('ENV_DEBUG')) == '1'  # 1==True
 print(DEBUG, ' <<')
 
 ALLOWED_HOSTS = []
@@ -46,6 +47,9 @@ INSTALLED_APPS = [
     'django_bootstrap5',
     'accounts',
     'article',
+
+    #
+    'gunicorn',
 ]
 
 MIDDLEWARE = [
@@ -101,12 +105,12 @@ POSTGRES_HOST = os.environ.get('POSTGRES_HOST')
 POSTGRES_PORT = os.environ.get('POSTGRES_PORT')
 
 POSTGRES_DEPLOY = (
-        POSTGRES_DB is not None
-        and POSTGRES_PASSWORD is not None 
-        and POSTGRES_USER is not None
-        and POSTGRES_HOST is not None
-        and POSTGRES_PORT is not None
-    )
+    POSTGRES_DB is not None
+    and POSTGRES_PASSWORD is not None
+    and POSTGRES_USER is not None
+    and POSTGRES_HOST is not None
+    and POSTGRES_PORT is not None
+)
 
 if POSTGRES_DEPLOY:
     DATABASES = {
